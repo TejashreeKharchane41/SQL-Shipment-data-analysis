@@ -1,4 +1,4 @@
--- Q6.Identify and remove any duplicate records in the dataset
+-- Q6.Identify duplicate records in the dataset
 
 SELECT Product_Id, COUNT(*) AS record_count
 FROM myshipment
